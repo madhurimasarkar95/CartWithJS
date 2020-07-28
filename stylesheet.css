@@ -1,0 +1,34 @@
+.navbar {list-style-type: none;
+    margin: 0px;
+    padding: 50px;
+    width: 100px;
+    height: 200px;
+    background-color: #acac86;
+    float: left;
+ }
+
+h1{text-align: center;
+                padding: 50px;
+               color: aliceblue;
+               background-color:#5b5b3e;
+            }
+
+footer{
+    text-align: center;
+    padding: 100px;
+    color: aliceblue;
+     background-color:#5b5b3e;
+
+}
+article {
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background-color: #f1f1f1;
+    height: 300px; 
+  }
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }  

@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset = "UTF-8">
+    <head>
+    <script type="text/javascript" src="script.js"></script>  
+            <link rel="stylesheet" href ="stylesheet.css" type="text/css">
+         
+    <h1>Cities</h1>
+    </head>
+
+<body>
+    <section>
+        <nav>
+     <ul class="navbar">
+    <li id="london"><a href="#" class="tablink" onclick="opencity('London')">London</a></li>
+    <li id="paris"><a href="#" class="tablink" onclick="opencity('Paris')">Paris</a></li>
+    <li id="tokiyo"><a href="#" class="tablink" onclick="opencity('Tokiyo')">Tokiyo</a></li>
+    
+  </ul>
+  </nav>>
+  
+  <article>
+  <div id="London" class="city">
+    <h2>London</h2>
+    <p>    London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic ‘Big Ben’ clock tower and Westminster Abbey, site of British monarch coronations. Across the Thames River, the London Eye observation wheel provides panoramic views of the South Bank cultural complex, and the entire city.
+    </p>
+    <button type="button" id="LondonTravels">Click for Travel Details</button>
+    <script type="text/javascript">
+    document.getElementById("LondonTravels").onclick = function()
+    { location.href="LondonTravels.html";
+    };
+    </script>
+  </div>
+  
+  
+  <div id="Paris" class="city">
+    <h2>Paris</h2>
+    <p>	    Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré.</body>
+    </p> 
+    <button type="button " id="ParisTravels">Click for Travel Details</button>
+      <script type="text/javascript">
+        document.getElementById("ParisTravels").onclick = function () {
+            location.href = "ParisTravels.html";
+        };
+        </script>
+  </div>
+  
+  <div id="Tokiyo" class="city">
+    <h2>Tokyo</h2>
+    <p>		    Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding woods. The Imperial Palace sits amid large public gardens. The city's many museums offer exhibits ranging from classical art (in the Tokyo National Museum) to a reconstructed kabuki theater (in the Edo-Tokyo Museum).</body>
+    </p>
+     <button type="button" id="TokiyoTravels" >Click for Travel Details
+       </button>
+      <script type="text/javascript">
+        document.getElementById("TokiyoTravels").onclick = function () {
+            location.href = "TokiyoTravels.html";
+        };
+    </script> 
+  </div>
+</article>
+</section>
+<script>opencity("London");</script>
+<footer>
+    Footer
+    </footer>
+    
+</body>
+</html>
